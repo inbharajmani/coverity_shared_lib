@@ -1,5 +1,5 @@
 def call(String cmd) {
-    if(isUnix){
+    if(isUnix()){
         return sh(cmd)
     }
     else{
